@@ -8,9 +8,15 @@
   .status {
     margin-bottom: 50px;
     font-size: 3rem;
-    color: red;    
+    color: red;
+    width: 330px;
+    padding-left: 15px;
+    margin-left: -10px;
   }
   .status:hover{
-    border-bottom:2px solid black ;
+    border:2px solid black ;
+    border-radius: 20px;
+    background-color: aqua;
+    overflow: hidden;
     padding-bottom: 10px;
   }

@@ -9,7 +9,8 @@ export default class Game extends Component {
     render() {
       return (
         <div className='game'> 
-        <div className='game-board'>
+       <div className="layer">
+       <div className='game-board'>
          {/* <h1 className='game-text'>
          A GAME BY JOSHI NAIDU
          </h1> */}
@@ -19,6 +20,8 @@ export default class Game extends Component {
              <div>{/*status*/}</div>
              <ol>{/*Todo*/}</ol>
         </div>
+       </div>
+        
       </div>
       )
     }

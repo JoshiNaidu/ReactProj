@@ -2,6 +2,6 @@ body {
     font: 14px "Century Gothic", Futura, sans-serif;
     width: 100vw;
     height: 100vh;
-    background-color: grey;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
   }
   
