@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import Square from './Square';
 import './Board.css'
 export default class Board extends Component {
-  renderSquare() {
-    return < Square/>
+  renderSquare(i) {
+    return < Square value = {i}/>
   }
   render(){
     const status = "Next player:X";

@@ -2,9 +2,15 @@
     clear: both;
     content: "";
     display: table;
+    width: 50px;
   }
   
   .status {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: 3rem;
+    color: red;    
+  }
+  .status:hover{
+    border-bottom:2px solid black ;
+    padding-bottom: 10px;
   }

@@ -8,8 +8,11 @@ import './Game.css';
 export default class Game extends Component {
     render() {
       return (
-        <div className='game'>
+        <div className='game'> 
         <div className='game-board'>
+         {/* <h1 className='game-text'>
+         A GAME BY JOSHI NAIDU
+         </h1> */}
           <Board/>
         </div>
         <div className='game-info'>

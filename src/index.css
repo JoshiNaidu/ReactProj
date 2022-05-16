@@ -1,5 +1,7 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
   }
   
