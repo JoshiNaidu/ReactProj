@@ -1,9 +1,20 @@
 import React, { Component } from 'react'
 
-export default class gettingdata extends Component {
+export default class Gettingdata extends Component {
+    constructor(props){
+        super(props)
+
+        this.state={
+            color:"green"
+        }
+    }
+    static getDerivedStateFromProps(props,state){
+        return {color:props.col}
+
+    }
   render() {
     return (
-      <div>gettingdata</div>
+      <div>{this.state.color}</div>
     )
   }
 }
